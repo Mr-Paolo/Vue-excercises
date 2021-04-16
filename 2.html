@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="card">
+        <h5>Excercise description: </h5>
+        <p>In the <code>2.js</code> file change the code of the <code>sayHello()</code> function in order that the <code>helloMessage</code> variable will have the content of "hello "+ the name written on the input text  </p>
+    </div>
+
+    <div class="container">
+        <input
+            type="text"
+            v-model="name"
+            class="form-control">
+        <div class="btn btn-info" @click="sayHello()">Say hello to me</div>
+        <h2>{{helloMessage}}</h2>
+
+        <h6>{{name}}</h6>
+
+    </div>
+
+
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="2.js"></script>
+</body>
+</html>
