@@ -1,7 +1,7 @@
 Vue.createApp({
     data() {
         return {
-            tigneLeft: 0
+            tigneLeft: 100
         }
     },
     methods: {
